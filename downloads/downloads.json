@@ -1,0 +1,74 @@
+{
+  "builtAt": "2026-11-02T17:49:17.005Z",
+  "base": "https://github.com/BJA-LTD/kelthys-install/releases/latest/download/",
+  "apps": {
+    "guard": {
+      "name": "Kelthys - Protect & Optimisation",
+      "version": "1.7.2",
+      "scheme": "bja-guard",
+      "port": 8021,
+      "files": {
+        "mac-arm64": {
+          "file": "Kelthys---Protect-&-Optimisation-1.7.2-mac-arm64.zip",
+          "size": 48362261,
+          "sha256": "dc5d1b68bf35e6cd8a42335142997aa989a57cea176a29be4477bc428272ab66"
+        },
+        "mac-x64": {
+          "file": "Kelthys---Protect-&-Optimisation-1.7.2-mac-x64.zip",
+          "size": 49872566,
+          "sha256": "5c6f335f04af1c53ecb8396df3fccdb9041b3b658d55deb3f98db5f25866fc11"
+        },
+        "win-x64": {
+          "file": "Kelthys---Protect-&-Optimisation-1.7.2-win-x64.zip",
+          "size": 40955754,
+          "sha256": "e7e873165d493033f217750dd84640e04017dbc861e4664ca56a32ed25529655"
+        }
+      },
+      "whatsNew": {
+        "en": [
+          "Things that belong to a protected work account (its apps, start-up items, browser profile, files) are now named in a list kept only on your computer, never inside the app. Guard still shows them and never touches them.",
+          "The public install page can now see this app on your computer and offer \"Open from device\"."
+        ],
+        "fr": [
+          "Ce qui appartient \u00e0 un compte de travail prot\u00e9g\u00e9 (ses applications, programmes de d\u00e9marrage, profil de navigateur, fichiers) est maintenant indiqu\u00e9 dans une liste gard\u00e9e uniquement sur votre ordinateur, jamais dans l\u2019application. Guard les montre toujours et n\u2019y touche jamais.",
+          "La page d\u2019installation publique peut maintenant voir cette application sur votre ordinateur et proposer \u00ab Ouvrir depuis l\u2019appareil \u00bb."
+        ]
+      }
+    },
+    "pdf-desk": {
+      "name": "Kelthys PDF",
+      "version": "2.1.0",
+      "scheme": "bja-pdf-desk",
+      "port": 8046,
+      "files": {
+        "mac-arm64": {
+          "file": "Kelthys-PDF-2.1.0-mac-arm64.zip",
+          "size": 49041304,
+          "sha256": "136ea1b4d08593ac267a178308a526ffe4a555a0a512319aa088dc44603c7a0a"
+        },
+        "mac-x64": {
+          "file": "Kelthys-PDF-2.1.0-mac-x64.zip",
+          "size": 50551601,
+          "sha256": "0ea45b5b3ee02ee8bd3c8062c51bc11b2ed04b41bbe92db7e1bdb0cbb6245ebc"
+        },
+        "win-x64": {
+          "file": "Kelthys-PDF-2.1.0-win-x64.zip",
+          "size": 41845037,
+          "sha256": "d868cb9ea95bce47b2c30e6bc0f12df28cfc7d622f790d23e97410b6f73ddf92"
+        }
+      },
+      "whatsNew": {
+        "en": [
+          "Kelthys PDF now opens in its own window: no web browser is needed any more.",
+          "The window remembers its size and place, and asks before closing when you have unsaved changes.",
+          "Links to websites open in your normal browser."
+        ],
+        "fr": [
+          "Kelthys PDF s\u2019ouvre maintenant dans sa propre fen\u00eatre : plus besoin de navigateur web.",
+          "La fen\u00eatre retient sa taille et sa place, et demande avant de fermer s\u2019il y a des modifications non enregistr\u00e9es.",
+          "Les liens vers des sites web s\u2019ouvrent dans votre navigateur habituel."
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#0a0f1a">
+<title>Install</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="../assets/guard.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="stylesheet" href="../assets/install.css">
+</head>
+<body data-app="guard">
+<header class="top">
+  <span class="brand" data-i18n="brand"></span>
+  <div class="lang" role="group" data-i18n-aria="lang.label">
+    <button type="button" id="langEn" data-lang="en">EN</button>
+    <button type="button" id="langFr" data-lang="fr">FR</button>
+  </div>
+</header>
+<main>
+  <section class="hero">
+    <img class="appicon" id="appIcon" src="../assets/guard.svg" alt="" width="96" height="96">
+    <h1 id="appName"></h1>
+    <p class="lead" id="appLead"></p>
+    <p class="meta" id="versionLine"></p>
+
+    <div class="actions" id="actions">
+      <button type="button" class="big" id="primary" hidden></button>
+      <a class="big link" id="download" hidden></a>
+      <button type="button" class="secondary" id="openAlready" hidden></button>
+      <a class="secondary link" id="intel" hidden></a>
+    </div>
+    <p class="status" id="status" role="status" aria-live="polite"></p>
+    <p class="notice" id="osNote"></p>
+  </section>
+
+  <section class="panel" id="phone" hidden>
+    <h2 data-i18n="phone.title"></h2>
+    <p data-i18n="phone.lead"></p>
+    <div class="actions">
+      <button type="button" class="big" id="pwaInstall" hidden data-i18n="phone.install"></button>
+      <button type="button" class="secondary" id="shareLink" data-i18n="phone.share"></button>
+    </div>
+    <p class="notice" id="iosHint" hidden data-i18n="phone.ios"></p>
+    <div id="whatsNew" hidden>
+      <h3 data-i18n="whatsnew.title"></h3>
+      <ul id="whatsNewList"></ul>
+    </div>
+  </section>
+
+  <section class="panel" id="stepsPanel" hidden>
+    <h2 data-i18n="steps.title"></h2>
+    <ol id="stepList"></ol>
+    <p class="warn" id="warnText"></p>
+  </section>
+
+  <section class="panel" id="limits">
+    <h2 data-i18n="limits.title"></h2>
+    <ul>
+      <li data-i18n="limits.unsigned"></li>
+      <li data-i18n="limits.updates"></li>
+      <li data-i18n="limits.data"></li>
+    </ul>
+  </section>
+
+  <details class="panel" id="others">
+    <summary data-i18n="others.title"></summary>
+    <ul id="otherList"></ul>
+    <p class="meta" data-i18n="others.unsupported"></p>
+  </details>
+
+  <nav class="apps" id="appsNav" aria-label="apps"></nav>
+</main>
+<footer><span data-i18n="footer"></span></footer>
+<script src="../assets/install.js"></script>
+</body>
+</html>

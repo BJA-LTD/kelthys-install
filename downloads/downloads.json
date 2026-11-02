@@ -9,17 +9,17 @@
       "port": 8021,
       "files": {
         "mac-arm64": {
-          "file": "Kelthys---Protect-&-Optimisation-1.7.2-mac-arm64.zip",
+          "file": "Kelthys---Protect-.-Optimisation-1.7.2-mac-arm64.zip",
           "size": 48362261,
           "sha256": "dc5d1b68bf35e6cd8a42335142997aa989a57cea176a29be4477bc428272ab66"
         },
         "mac-x64": {
-          "file": "Kelthys---Protect-&-Optimisation-1.7.2-mac-x64.zip",
+          "file": "Kelthys---Protect-.-Optimisation-1.7.2-mac-x64.zip",
           "size": 49872566,
           "sha256": "5c6f335f04af1c53ecb8396df3fccdb9041b3b658d55deb3f98db5f25866fc11"
         },
         "win-x64": {
-          "file": "Kelthys---Protect-&-Optimisation-1.7.2-win-x64.zip",
+          "file": "Kelthys---Protect-.-Optimisation-1.7.2-win-x64.zip",
           "size": 40955754,
           "sha256": "e7e873165d493033f217750dd84640e04017dbc861e4664ca56a32ed25529655"
         }

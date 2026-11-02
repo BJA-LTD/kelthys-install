@@ -1,6 +1,6 @@
 /* Install page worker: lets the phone companion open offline. Pages and strings: network first, falling back to the
  * copy kept from the last visit. downloads.json is never served from the cache while online (the version must be fresh). */
-const CACHE = 'bja-install-9dde50ec67';
+const CACHE = 'bja-install-70d78777e5';
 self.addEventListener('install', (e) => { self.skipWaiting(); });
 self.addEventListener('activate', (e) => e.waitUntil((async () => {
   for (const k of await caches.keys()) if (k.startsWith('bja-install-') && k !== CACHE) await caches.delete(k);
